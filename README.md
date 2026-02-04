@@ -32,14 +32,17 @@ Dự án mô phỏng đầy đủ các luồng hoạt động chính của một
 ```bash
 git clone [https://github.com/ducminh0901/f8-thread-clone.git](https://github.com/ducminh0901/f8-thread-clone.git)
 cd f8-thread-clone
-
+```
 
 ### 2. Cài đặt thư viện
 
+```bash
 npm install
+```
 
 ### 3. Chạy dự án
 
+```bash
 npm run dev
 
 ```

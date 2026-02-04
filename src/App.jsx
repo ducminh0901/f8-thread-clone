@@ -55,7 +55,7 @@ function App() {
         <>
             <Toaster richColors position="top-right" />
 
-            <Router>
+            <Router basename="/f8-thread-clone">
                 <Routes>
                     {ROUTES.map((rou, index) => {
                         const Layout = rou.layout;

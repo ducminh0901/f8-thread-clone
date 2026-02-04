@@ -2,8 +2,6 @@
 
 Một ứng dụng mạng xã hội thu nhỏ được lấy cảm hứng từ Threads (Meta), cho phép người dùng kết nối, chia sẻ suy nghĩ và tương tác với nhau trong thời gian thực.
 
-![Banner dự án](https://your-image-link-here.com/demo.png) ---
-
 ## 🚀 Tính năng chính
 
 Dự án mô phỏng đầy đủ các luồng hoạt động chính của một mạng xã hội hiện đại:
@@ -28,3 +26,24 @@ Dự án mô phỏng đầy đủ các luồng hoạt động chính của một
 | **Storage**          | Cloudinary hoặc Firebase Storage (lưu trữ ảnh)             |
 
 ## 📦 Cài đặt và Chạy dự án
+
+### 1. Clone dự án
+
+```bash
+git clone [https://github.com/ducminh0901/f8-thread-clone.git](https://github.com/ducminh0901/f8-thread-clone.git)
+cd f8-thread-clone
+
+
+### 2. Cài đặt thư viện
+
+npm install
+
+### 3. Chạy dự án
+
+npm run dev
+
+```
+
+## 🚀🚀 Deploy Github
+
+> **Live Demo:** [https://ducminh0901.github.io/f8-thread-clone/](https://ducminh0901.github.io/f8-thread-clone/)

@@ -2,9 +2,9 @@ import { fetchReplies } from "@/features/reply/replySlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useCallback } from "react";
 import useInfiniteScroll from "@/hooks/useInfiniteScroll";
-import InteractionBar from "../posts/InteractionBar";
+import InteractionBar from "../post/InteractionBar";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
-import PostSkeletonList from "../posts/Skeleton/PostSkeletonList";
+import PostSkeletonList from "../post/Skeleton/PostSkeletonList";
 
 function ReplyList({ postId }) {
     const dispatch = useDispatch();

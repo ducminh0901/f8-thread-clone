@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/dialog";
 import { closeEmbedModal } from "@/features/embed/embedSlice"; // Đường dẫn slice của bạn
 import { toast } from "sonner";
-import PostPreview from "@/components/posts/PostPreview";
+import PostPreview from "@/components/post/PostPreview";
 
 const EmbedModal = () => {
     const dispatch = useDispatch();

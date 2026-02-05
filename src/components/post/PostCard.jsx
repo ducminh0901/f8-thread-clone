@@ -36,7 +36,7 @@ import BlockUserDialog from "./dialog/BlockDialog";
 import { ReportPostDialog } from "./dialog";
 import { selectIsAuth, selectCurrentUser } from "@/features/auth/authSlice";
 import { deletePost } from "@/features/post/postSlice";
-import DeletePostDialog from "@/components/posts/dialog/DeletePostModal";
+import DeletePostDialog from "@/components/post/dialog/DeletePostModal";
 import EditPostModal from "./Modal/EditPostModal";
 import { toast } from "sonner";
 import { openQuoteModal } from "@/features/quote/quoteSlice";

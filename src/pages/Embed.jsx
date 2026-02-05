@@ -1,7 +1,7 @@
 // src/pages/Embed.jsx
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
-import PostCard from "@/components/posts/PostCard";
+import PostCard from "@/components/post/PostCard";
 import { fetchPostDetail } from "@/features/post/postSlice";
 import { useDispatch, useSelector } from "react-redux";
 

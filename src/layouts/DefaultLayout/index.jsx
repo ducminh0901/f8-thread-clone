@@ -3,7 +3,7 @@ import Sidebar from "@/components/navigation/Sidebar";
 import LoginPanel from "@/components/auth/LoginPanel";
 import FeedHeader from "@/components/feed/FeedHeader";
 import { PATHS } from "@/configs/path";
-import CreatePostModal from "@/components/posts/Modal/CreatePostModal";
+import CreatePostModal from "@/components/post/Modal/CreatePostModal";
 import CreatePostButton from "@/components/feed/PostButton";
 import ProtectedView from "@/components/auth/ProtectedView";
 import { Button } from "@/components/ui/button";

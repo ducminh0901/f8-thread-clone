@@ -2,14 +2,14 @@ import { PAGE_TITLES, PATHS } from "@/configs/path";
 import DefaultLayout from "@/layouts/DefaultLayout";
 import AuthLayout from "@/layouts/AuthLayout";
 
-import Home from "@/pages/HomePage";
+import Home from "@/pages/Home";
 import Search from "@/pages/Search";
 import Profile from "@/pages/Profile";
 import Activity from "@/pages/Activity";
 import Login from "@/pages/Auth/Login";
 import Register from "@/pages/Auth/Register";
 import ForgotPassword from "@/pages/Auth/ForgotPassword";
-import ResetPassword from "@/pages/Auth/ResetPassWord";
+import ResetPassword from "@/pages/Auth/ResetPassword";
 import EmbedLayout from "./layouts/EmbedLayout";
 import Embed from "./pages/Embed";
 import PostDetailPage from "./pages/PostDetailPage";

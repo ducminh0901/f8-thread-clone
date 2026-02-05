@@ -1,9 +1,9 @@
 import { useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import CreatePostCard from "@/components/posts/CreatePostCard";
-import PostList from "@/components/posts/PostList";
-import PostSkeletonList from "@/components/posts/Skeleton/PostSkeletonList";
+import CreatePostCard from "@/components/post/CreatePostCard";
+import PostList from "@/components/post/PostList";
+import PostSkeletonList from "@/components/post/Skeleton/PostSkeletonList";
 import useInfiniteScroll from "@/hooks/useInfiniteScroll";
 
 import {

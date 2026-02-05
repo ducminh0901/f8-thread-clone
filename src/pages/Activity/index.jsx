@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import PostCard from "@/components/posts/PostCard";
+import PostCard from "@/components/post/PostCard";
 import { fetchInitialPosts } from "@/features/post/postSlice";
-import PostSkeletonList from "@/components/posts/Skeleton/PostSkeletonList";
+import PostSkeletonList from "@/components/post/Skeleton/PostSkeletonList";
 
 export default function Activity() {
     const dispatch = useDispatch();

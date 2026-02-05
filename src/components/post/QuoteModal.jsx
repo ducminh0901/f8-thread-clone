@@ -5,7 +5,7 @@ import { closeQuoteModal } from "@/features/quote/quoteSlice";
 import { quotePost } from "@/features/post/postSlice";
 
 // Các component UI giữ nguyên
-import PostPreview from "@/components/posts/PostPreview";
+import PostPreview from "@/components/post/PostPreview";
 import ModalFooter from "@/components/feed/ModalFooter";
 import HeaderModal from "@/components/feed/ModalHeader";
 import PostComposer from "@/components/feed/PostComposer";

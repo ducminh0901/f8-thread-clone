@@ -5,7 +5,7 @@ import {
     fetchFollowing,
     fetchProfileData,
 } from "@/features/profile/profileSlice";
-import PostCard from "@/components/posts/PostCard";
+import PostCard from "@/components/post/PostCard";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import EditProfileModal from "@/components/profile/EditProfileModal";

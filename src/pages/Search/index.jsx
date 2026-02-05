@@ -10,8 +10,8 @@ import {
 } from "@/features/search/searchSlice";
 import { Spinner } from "@/components/ui/spinner";
 import { Search } from "lucide-react";
-import { UserSkeleton } from "@/components/posts/Skeleton/PostSkeleton";
-import { UserSkeletonList } from "@/components/posts/Skeleton/PostSkeletonList";
+import { UserSkeleton } from "@/components/post/Skeleton/PostSkeleton";
+import { UserSkeletonList } from "@/components/post/Skeleton/PostSkeletonList";
 import UserCard from "@/components/search/UserCard";
 
 const SearchPage = () => {

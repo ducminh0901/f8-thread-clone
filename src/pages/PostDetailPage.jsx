@@ -2,7 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import PostCard from "@/components/posts/PostCard";
+import PostCard from "@/components/post/PostCard";
 import ReplyList from "@/components/reply/ReplyList";
 
 import {

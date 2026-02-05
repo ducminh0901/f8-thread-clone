@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ROUTES } from "./routes";
 import { Toaster } from "sonner";
 import AuthDialog from "./components/auth/AuthDialog";
-import QuoteModal from "./components/posts/Modal/QuoteModal";
-import ReplyModal from "./components/posts/Modal/ReplyModal";
-import EmbedModal from "./components/posts/Modal/EmbedModal";
+import QuoteModal from "./components/post/QuoteModal";
+import ReplyModal from "./components/post/ReplyModal";
+import EmbedModal from "./components/post/EmbedModal";
 
 import { useEffect } from "react";
 import { useSelector } from "react-redux";

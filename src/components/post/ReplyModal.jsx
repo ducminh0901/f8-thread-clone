@@ -5,7 +5,7 @@ import { closeReplyModal } from "@/features/reply/replySlice";
 import { createReply } from "@/features/reply/replySlice";
 import { toast } from "sonner";
 
-import PostPreview from "@/components/posts/PostPreview";
+import PostPreview from "@/components/post/PostPreview";
 import ModalFooter from "@/components/feed/ModalFooter";
 import HeaderModal from "@/components/feed/ModalHeader";
 import PostComposer from "@/components/feed/PostComposer";

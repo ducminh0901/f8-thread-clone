@@ -17,13 +17,12 @@ Dự án mô phỏng đầy đủ các luồng hoạt động chính của một
 
 ## 🛠 Công nghệ sử dụng (Tech Stack)
 
-| Thành phần           | Công nghệ                                                  |
-| :------------------- | :--------------------------------------------------------- |
-| **Frontend**         | React.js / Next.js, Tailwind CSS, Framer Motion (hiệu ứng) |
-| **API Backend**      | JSON Server                                                |
-| **Database**         | db.json                                                    |
-| **State Management** | Redux Toolkit                                              |
-| **Storage**          | Cloudinary hoặc Firebase Storage (lưu trữ ảnh)             |
+| Thành phần           | Công nghệ              |
+| :------------------- | :--------------------- |
+| **Frontend**         | React.js, Tailwind CSS |
+| **API Backend**      | JSON Server            |
+| **Database**         | db.json                |
+| **State Management** | Redux Toolkit          |
 
 ## 📦 Cài đặt và Chạy dự án
 
@@ -50,3 +49,11 @@ npm run dev
 ## 🚀🚀 Deploy Github
 
 > **Live Demo:** [https://ducminh0901.github.io/f8-thread-clone/](https://ducminh0901.github.io/f8-thread-clone/)
+
+## Tài khoản & Mật khẩu test
+
+```bash
+Tài khoản: ducminh01
+Mật khẩu: anhminhday
+
+```

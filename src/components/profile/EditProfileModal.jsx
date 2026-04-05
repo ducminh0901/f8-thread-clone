@@ -169,7 +169,7 @@ export default function EditProfileModal({ isOpen, onOpenChange, user }) {
                                     bio: e.target.value,
                                 })
                             }
-                            className="resize-none p-1 border-none p-0 focus-visible:ring-0 min-h-[60px] text-[15px]"
+                            className="resize-none p-1 border-none  focus-visible:ring-0 min-h-15 text-[15px]"
                         />
                     </div>
 

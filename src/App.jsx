@@ -23,7 +23,7 @@ function App() {
     const theme = useSelector((state) => state.ui.theme);
 
     useEffect(() => {
-        const root = window.document.documentElement; // Chính là thẻ <html> trong file của bạn
+        const root = window.document.documentElement;
 
         const applyTheme = () => {
             root.classList.remove("light", "dark");

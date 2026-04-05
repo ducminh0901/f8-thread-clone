@@ -1,5 +1,7 @@
 import { useState, useEffect, useMemo } from "react";
+import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+
 import {
     fetchFollowers,
     fetchFollowing,
@@ -27,6 +29,8 @@ export default function Profile() {
         followersCount,
     } = useSelector((state) => state.profile);
 
+    const { username } = useParams();
+
     // 1. Chỉ gọi Profile Data (User info + Posts) một lần duy nhất khi vào trang
     useEffect(() => {
         dispatch(fetchProfileData());
@@ -41,15 +45,26 @@ export default function Profile() {
     }, [currentUser?.id, dispatch]);
 
     // 3. Cập nhật tiêu đề trang (Document Title)
+    // useEffect(() => {
+    //     if (currentUser) {
+    //         const displayName = currentUser.name || currentUser.username;
+    //         document.title = `${displayName} (@${currentUser.username}) • Threads`;
+    //     }
+    //     return () => {
+    //         document.title = "Threads";
+    //     };
+    // }, [currentUser]);
+
     useEffect(() => {
-        if (currentUser) {
-            const displayName = currentUser.name || currentUser.username;
-            document.title = `${displayName} (@${currentUser.username}) • Threads`;
+        if (username) {
+            document.title = `${username} (@${username}) • Threads`;
         }
+
+        // Cleanup function: Khi rời khỏi trang Profile thì trả lại title mặc định
         return () => {
             document.title = "Threads";
         };
-    }, [currentUser]);
+    }, [username]);
 
     const mapPostData = (threads) => {
         if (!threads) return [];
@@ -139,10 +154,12 @@ export default function Profile() {
                 <div className="flex justify-between items-center gap-4">
                     <div className="flex flex-1 flex-col">
                         <h1 className="text-2xl font-bold tracking-tight">
-                            {currentUser.name || currentUser.username}
+                            {username ||
+                                currentUser.name ||
+                                currentUser.username}
                         </h1>
                         <p className="text-gray-500 text-[15px]">
-                            @{currentUser.username}
+                            @{username || currentUser.username}
                         </p>
 
                         {currentUser?.bio && (
@@ -187,7 +204,7 @@ export default function Profile() {
                             }
                         />
                         <AvatarFallback className="text-xl font-semibold">
-                            {currentUser.username?.[0].toUpperCase()}
+                            {username?.[0].toUpperCase()}
                         </AvatarFallback>
                     </Avatar>
                 </div>

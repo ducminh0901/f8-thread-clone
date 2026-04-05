@@ -18,10 +18,10 @@ Dự án mô phỏng đầy đủ các luồng hoạt động chính của một
 ## 🛠 Công nghệ sử dụng (Tech Stack)
 
 | Thành phần           | Công nghệ              |
-| :------------------- | :--------------------- |
+| :------------------- | :--------------------- | --- |
 | **Frontend**         | React.js, Tailwind CSS |
 | **API Backend**      | JSON Server            |
-| **Database**         | db.json                |
+| **Database**         | db.json                | np  |
 | **State Management** | Redux Toolkit          |
 
 ## 📦 Cài đặt và Chạy dự án

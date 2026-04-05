@@ -56,7 +56,6 @@ export const NAV_ITEMS = [
     },
 ];
 
-// Thêm vào cùng file chứa PATHS của bạn
 export const PAGE_TITLES = {
     [PATHS.HOME]: "Trang chủ • Threads",
     [PATHS.SEARCH]: "Tìm kiếm • Threads",

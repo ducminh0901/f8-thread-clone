@@ -22,6 +22,12 @@ export function BottomSidebar() {
                         item.path === "/profile/:username"
                             ? `/profile/${currentUser?.username || "you"}`
                             : item.path;
+                    console.log(
+                        "Current path:",
+                        location.pathname,
+                        " vs ",
+                        path,
+                    );
 
                     const isActive = location.pathname === path;
                     const Icon = item.icon;

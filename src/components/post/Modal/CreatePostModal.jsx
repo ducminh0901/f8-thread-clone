@@ -2,9 +2,9 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-import PostComposer from "../../feed/PostComposer";
-import ModalFooter from "../../feed/ModalFooter";
-import HeaderModal from "../../feed/ModalHeader";
+import PostComposer from "@/components/feed/PostComposer";
+import ModalFooter from "@/components/feed/ModalFooter";
+import HeaderModal from "@/components/feed/ModalHeader";
 import { useDispatch, useSelector } from "react-redux";
 import { addPost } from "@/features/post/postSlice";
 
@@ -26,7 +26,6 @@ function CreatePostModal() {
             await dispatch(addPost({ content, topic })).unwrap();
             navigate(-1);
         } catch (error) {
-            // Xử lý lỗi ở đây (vd: hiện toast)
             console.error("Lỗi đăng bài:", error);
         }
     };
